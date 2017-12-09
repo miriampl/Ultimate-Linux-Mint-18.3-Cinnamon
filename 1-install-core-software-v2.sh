@@ -4,6 +4,7 @@ set -e
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
 # Website 	: 	http://www.erikdubois.be
+# Mods by	:	Miriampl
 ##################################################################################################################
 ##################################################################################################################
 #
@@ -12,11 +13,22 @@ set -e
 ##################################################################################################################
 
 #software from 'normal' repositories
-sudo apt-get install -y catfish clementine curl dconf-cli dconf-editor dropbox evolution focuswriter geany geary gimp gpick
+#sudo apt-get install -y catfish clementine curl dconf-cli dconf-editor dropbox evolution focuswriter geany geary gimp gpick
+#sudo apt-get install -y glances gparted grsync hardinfo inkscape meld
+#sudo apt-get install -y openshot pinta plank ppa-purge radiotray screenruler screenfetch scrot shutter slurm synapse
+#sudo apt-get install -y thunar vlc vnstat   
+sudo apt-get install -y catfish clementine curl dconf-cli dconf-editor geary gpick
 sudo apt-get install -y glances gparted grsync hardinfo inkscape meld
 sudo apt-get install -y openshot pinta plank ppa-purge radiotray screenruler screenfetch scrot shutter slurm synapse
 sudo apt-get install -y thunar vlc vnstat   
 
+#Application info:
+# glances - CLI Monitoring tool https://www.youtube.com/watch?v=ZwhyLD-wquk
+# curl - CLI URL crouler. The curl command allows us to query URLs from the command line https://www.youtube.com/watch?v=WxUVU0b95Oc
+# gparted - GUI Partition tool. This is defaut in all linux on Live CD to manage Your disk / partitions but not installed in OS it self https://www.youtube.com/watch?v=O5kh_-6e4kk 
+# catfish - GUI Searching tool. This tool is good when You need to find a file on Your disk / partition / network device
+# clementine - GUI Best music player. This tool supports network music like spotyfie or brodcasts.
+# grsync - GUI moving data around and making simple backups tool https://www.youtube.com/watch?v=6nOojLe_CI0
 
 #operating specific software
 
