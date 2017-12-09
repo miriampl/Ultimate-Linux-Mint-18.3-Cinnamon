@@ -61,7 +61,7 @@ fi
 #https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config
 
 git init
-git config --global user.name "K@iTO Nakamura"
+git config --global user.name "miriampl"
 git config --global user.email "klikacz.jo@gmail.com"
 sudo git config --system core.editor nano
 git config --global credential.helper cache
