@@ -15,6 +15,12 @@
 ########################################
 ########        C O N K Y      #########
 ########################################
+<<COMMENT1
+
+	I don't use Conky as aureola but i'm thining to move with it. 
+	Right now i'm implementing conky as a installed application
+COMMENT1
+
 
 
 
