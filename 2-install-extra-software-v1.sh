@@ -39,8 +39,10 @@ COMMENT1
 ###############################################################################################
 
 # Neofetch
-
-sh install-neofetch-v*.sh
+<<COMMENT2
+I'm not going to use neofetch - i'm using screenfetch
+COMMENT2
+#sh install-neofetch-v*.sh
 
 ###############################################################################################
 
@@ -99,6 +101,19 @@ sh install-vivaldi-snapshot-v*.sh
 sh hardcodefixer-v*.sh
 
 ###############################################################################################
+
+# Insync
+<<COMMENTinsync 
+Insync: Google Drive Sync & Backup Software For Desktop
+https://www.insynchq.com/
+COMMENTinsync
+
+
+sh install-insync-v*.sh
+
+###############################################################################################
+
+
 
 echo "################################################################"
 echo "###################   extra software installed  ################"
