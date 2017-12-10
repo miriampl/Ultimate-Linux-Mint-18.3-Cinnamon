@@ -113,7 +113,15 @@ sh install-insync-v*.sh
 
 ###############################################################################################
 
+# Speedtest-CLI
+<<Comment1
+	Speedtest-cli - Command line interface for testing internet bandwidth using speedtest.net.
+	https://github.com/sivel/speedtest-cli
+Comment1
 
+sh install-speedtest-cli-v1.sh
+
+###############################################################################################
 
 echo "################################################################"
 echo "###################   extra software installed  ################"
