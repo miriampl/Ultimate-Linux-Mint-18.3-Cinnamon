@@ -31,8 +31,10 @@ sh install-google-chrome-v*.sh
 ###############################################################################################
 
 # Gradio
-
-sh install-gradio-v*.sh
+<<COMMENT1
+I'm not going to use gradio - i'm using clementine
+COMMENT1
+# sh install-gradio-v*.sh
 
 ###############################################################################################
 
