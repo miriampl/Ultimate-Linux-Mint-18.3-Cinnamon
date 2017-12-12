@@ -25,6 +25,8 @@ set -e
 
 sudo apt-get purge --auto-remove thunderbird
 
+# One time entry - always auto clean after all done
+sudo apt-get clean
 echo "################################################################"
 echo "#############      distro specific software remover   ##########"
 echo "################################################################"
